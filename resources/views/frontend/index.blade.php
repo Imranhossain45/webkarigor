@@ -3,5 +3,6 @@
     @include('frontend.banner')
     @include('frontend.category')
     @include('frontend.feature')
+    @include('frontend.feature_box')
 
 @endsection

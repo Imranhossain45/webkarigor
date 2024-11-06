@@ -21,7 +21,7 @@
     bottom: 20px !important;
 }
 span.search_icon {
-    background: #f4f4f4;
+    background: #EDEDED;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -34,4 +34,19 @@ span.search_icon i {
     background: #1a4622;
     padding: 5px 10px;
     color: white;
+}
+.gap_5{
+    gap: 5px;
+}
+.bg_soft_green{
+    background: #E8ECE9;
+}
+.feature-boxes-container span{
+    background: #1a4622;
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+}
+.feature-boxes-container h5,.feature-boxes-container h6{
+    margin-bottom: 0;
 }

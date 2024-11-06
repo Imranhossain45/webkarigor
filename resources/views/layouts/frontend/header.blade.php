@@ -85,7 +85,7 @@
        </div>
 
        <div class="header-center">
-         <div class="header-icon header-search header-search-inline header-search-category w-lg-max text-right mt-0">
+         <div class="header-search header-search-inline header-search-category w-lg-max text-right mt-0">
            <a href="#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
            <form action="#" method="get">
              <div class="header-search-wrapper">
@@ -94,7 +94,7 @@
                  placeholder="I'm searching for..." required>
 
                <!-- End .select-custom -->
-               <button class="btn bg-dark text-white" type="submit">Search</button>
+               <button class="btn text-white" type="submit">Search</button>
              </div>
              <!-- End .header-search-wrapper -->
            </form>
@@ -103,14 +103,16 @@
        </div>
 
        <div class="header-right ml-0 ml-lg-auto">
-         <a href="wishlist.html" class="header-icon">
-           <i class="icon-wishlist-2"></i>
+         
+         <a href="wishlist.html" class="header-icon position-relative">
+          <i class="fa-solid fa-heart"></i>
+          {{-- <span class="cart-count badge-circle">3</span> --}}
          </a>
 
          <div class="dropdown cart-dropdown">
-           <a href="#" title="Cart" class="dropdown-toggle cart-toggle" role="button" data-toggle="dropdown"
+           <a href="#" title="Cart" class="header-icon dropdown-toggle cart-toggle" role="button" data-toggle="dropdown"
              aria-haspopup="true" aria-expanded="false" data-display="static">
-             <i class="minicart-icon"></i>
+             <i class="fa-solid fa-cart-shopping"></i>
              <span class="cart-count badge-circle">3</span>
            </a>
 
@@ -210,11 +212,14 @@
            <!-- End .dropdown-menu -->
          </div>
          <!-- End .dropdown -->
+         <a href="wishlist.html" class="d-flex align-items-center gap_5 position-relative">
+          <span class="header-icon"><i class="fa-solid fa-user"></i> </span>Sign In
+         </a>
        </div>
      </div>
    </div>
 
-   <div class="header-bottom sticky-header" data-sticky-options="{'mobile': false}">
+   {{-- <div class="header-bottom sticky-header" data-sticky-options="{'mobile': false}">
      <div class="container">
        <div class="header-left">
          <a href="demo21.html" class="logo">
@@ -533,6 +538,6 @@
          <!-- End .dropdown -->
        </div>
      </div>
-   </div>
+   </div> --}}
  </header>
  <!-- End .header -->

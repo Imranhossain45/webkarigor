@@ -37,14 +37,14 @@ class AppServiceProvider extends ServiceProvider
         // $topbar_phone = explode(',', $generalInfo->phone);
         // view()->share(['topbar_phone' => $topbar_phone]);
 
-        $newsletter_sec_content = SectionContent::where('sec_name', 'News Letter')->where('page_name', 'home_page')
-            ->where('status', 1)
-            ->first();
-            view()->share(['newsletter_sec_content' => $newsletter_sec_content]);
+        // $newsletter_sec_content = SectionContent::where('sec_name', 'News Letter')->where('page_name', 'home_page')
+        //     ->where('status', 1)
+        //     ->first();
+        //     view()->share(['newsletter_sec_content' => $newsletter_sec_content]);
 
-        $products = Product::where('status', 'publish')->orderBy('created_at', 'desc')->get();
+        // $products = Product::where('status', 'publish')->orderBy('created_at', 'desc')->get();
 
-        view()->share(['products' => $products]);
+        // view()->share(['products' => $products]);
         // $concerns = Concern::where('status', 'publish')->orderBy('id', 'desc')->get();
 
         // view()->share(['concerns' => $concerns]);

@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\PagesController;
-use App\Http\Controllers\ApplyMailController;
+
 use App\Http\Controllers\Backend\FaqController;
 use App\Http\Controllers\Backend\BlogController;
 use App\Http\Controllers\Backend\FlagController;
@@ -884,7 +884,6 @@ Route::middleware(['auth'])->group(
     }
 );
 
-Route::post('applyMail', [ApplyMailController::class, 'html_email'])->name('applyMail');
 Route::controller(MailController::class)->group(function () {
     Route::get('sendbasicemail', 'basic_email');
     Route::post('sendhtmlemail', 'html_email')->name('html_email');

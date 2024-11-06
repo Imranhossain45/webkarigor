@@ -16,7 +16,7 @@
                         </div>
                         <div class="card">
                             <div class="card-body">
-                                <form action="{{ route('applyMail') }}" method="POST" enctype="multipart/form-data">
+                                <form action="" method="POST" enctype="multipart/form-data">
                                     @csrf
                                     <div class="form-row">
                                         <div class="form-group mb-3">

@@ -5932,7 +5932,7 @@ figure .porto-loading-icon {
 
 .inner-icon {
     position: relative;
-    margin-bottom: 1.9rem;
+    margin-bottom: 0;
 }
 .inner-icon:not(.product-widget) .product-details {
     padding: 0;
@@ -7116,7 +7116,6 @@ figure .porto-loading-icon {
 
 .product-category {
     color: #1d2127;
-    margin-bottom: 2rem;
     position: relative;
 }
 .product-category a:hover {
@@ -7654,7 +7653,7 @@ html {
 }
 
 body {
-    color: #777;
+    color: #1a4622;
     background: #F5F6F7;
     font-size: 1.4rem;
     font-weight: 400;
@@ -8197,6 +8196,7 @@ a:focus {
 }
 
 .main {
+    margin-top: 70px;
     flex: 1 1 auto;
 }
 
@@ -8776,11 +8776,11 @@ header a {
 .badge-circle {
     position: absolute;
     top: 1px;
-    right: 0;
+    right: 10px;
     width: 1.6rem;
     border-radius: 50%;
     color: #fff;
-    background: #ff5b5b;
+    background: #1a4622;
     font-weight: 600;
     font-size: 1.1rem;
     line-height: 1.6rem;
@@ -8849,7 +8849,7 @@ header .separator {
     margin-right: 2.2rem;
 }
 .header-icon i {
-    font-size: 2.7rem;
+    font-size: 1.5rem;
 }
 .header-icon:hover {
     color: #222529;
@@ -8931,7 +8931,7 @@ header .separator {
 }
 
 .dropdown-toggle i {
-    font-size: 2.8rem;
+    font-size: 1.5rem;
 }
 .dropdown-toggle:not(.dropdown-arrow):after {
     display: none;
@@ -9365,7 +9365,7 @@ header .separator {
 }
 .header-search .form-control,
 .header-search .select-custom {
-    background: #f4f4f4;
+    background: #EDEDED;
 }
 @media (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .header-search .form-control {
@@ -9462,7 +9462,7 @@ header .separator {
     border-left: 1px solid #fff;
     min-width: 40px;
     color: #222529;
-    background: #f4f4f4;
+    background: #1a4622;
 }
 .header-search-wrapper .btn:before {
     display: inline-block;
@@ -9991,8 +9991,7 @@ header .separator {
 }
 
 footer {
-    font-size: 1.3rem;
-    line-height: 24px;
+    font-size: 16px;
 }
 footer .container {
     position: relative;
@@ -10046,7 +10045,7 @@ footer .widget {
     margin-bottom: 3rem;
 }
 footer .widget-title {
-    color: #fff;
+    color: #1a4622;
     font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -10199,6 +10198,8 @@ footer .contact-info-label {
     display: flex;
     padding: 10px 0;
     background: white;
+    position: fixed;
+    width: 100%;
 }
 
 .header-bottom .container:before {
@@ -10327,7 +10328,9 @@ footer .contact-info-label {
     letter-spacing: 0.005em;
 }
 .footer .widget li {
-    color: #a8a8a8;
+    color: #1a4622;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 .footer .widget-title {
     letter-spacing: normal;
@@ -10346,16 +10349,17 @@ footer .contact-info-label {
     box-shadow: none;
     font-size: 1.5rem;
     line-height: 3.6rem;
-    border-radius: 50%;
+    border-radius: 5px;
     border: 1px solid #313438;
 }
 .footer .social-icon:not(:hover):not(:active):not(:focus) {
-    background-color: red;
+    background-color: #1a4622;
     border-color: #313438;
     color: #fff;
 }
 .footer .social-icon:hover {
     border-color: transparent;
+    background: #eb1d24;
 }
 .footer .social-icon + .social-icon {
     margin-left: 0.5rem;
